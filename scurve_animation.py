@@ -4,7 +4,8 @@ import random
 import matplotlib.animation as animation
 from matplotlib import cm
 
-# s curve function
+# test the colab
+# s curve function 
 def _f(a,b,c,t):
     return c*1/(1+a*np.exp(-b*t))
 # function for s curve with added noise
